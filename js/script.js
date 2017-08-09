@@ -92,7 +92,9 @@ $( document ).ready(function() {
 /* ------------------------------------- */
 /* Page Loading    ................... */
 /* ------------------------------------- */
-  $(".animsition").animsition({    inClass: 'fade-in',
+
+  $(".animsition").animsition({
+    inClass: 'fade-in',
     outClass: 'fade-out',
     inDuration: 1500,
     outDuration: 800,
@@ -125,7 +127,8 @@ $( document ).ready(function() {
       });
     });
 
- /* ------------------------------------- */ /* Project Gallery   ................... */
+ /* ------------------------------------- */
+ /* Project Gallery   ................... */
  /* ------------------------------------- */
   $(function() {
 
@@ -489,7 +492,8 @@ $(window).load(function() {
        + '<div class="clock-box"><span>%M</span> minuts, and </div>'
        + '<div class="clock-box"><span>%S</span> seconds </div>'
        ));
-  });
+  });
+
 /* ------------------------------------- */
 /* Subscribe Form   ................... */
 /* ------------------------------------- */
@@ -514,7 +518,7 @@ $(function() {
           } else {
             $resultElement.removeClass('subscribe-success');
             $resultElement.removeClass('subscribe-error');
-              $resultElement.html("Subscribing...");
+              $resultElement.html("Thank You!");
               submitSubscribeForm($form, $resultElement);
           }
       });
