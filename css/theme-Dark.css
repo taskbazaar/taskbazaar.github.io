@@ -696,6 +696,10 @@ h6 {
     .service .feature i {
       font-size: 2.2em; }
 
+#taskbazaar{
+  color: red;
+}
+
 /* ------------------------------------- */
 /* Review ................... */
 /* ------------------------------------- */
@@ -762,9 +766,9 @@ h6 {
     font-size: 2.5em;
     font-weight: 400;
     margin-bottom: 0; }
-    .price .rate::before {
-      content: '$';
-      font-size: .5em !important; }
+    .price .rate::after {
+      content: '%';
+      font-size: .8em !important; }
   .price p {
     margin: 0 !important; }
 
@@ -776,6 +780,7 @@ h6 {
   overflow: hidden;
   position: relative;
   width: 130%;
+  height: 100%;
   left: -15%;
   padding: 10% 0;
   padding-bottom: 15%; }
@@ -1031,6 +1036,9 @@ footer {
     vertical-align: middle;
     font-size: 0.75em;
     font-weight: 500 !important; }
+    footer p .ion-ios-email-outline{
+      font-size: 1.25em;
+    }
   footer .drag {
     display: table-cell;
     vertical-align: middle;
@@ -1236,7 +1244,8 @@ i {
 p {
   font-size: .85em;
   font-weight: 500;
-  margin-bottom: 20px; }
+  margin-bottom: 20px; 
+  text-align: justify; }
   p a {
     color: #121619;
     text-decoration: none; }
@@ -1272,9 +1281,6 @@ a {
 img {
   max-width: 100%;
   vertical-align: middle; }
-
-.ion-heart {
-  color: crimson; }
 
 /* ------------------------------------- */
 /* Plugin styles ................... */
